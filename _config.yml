@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Tom's blog
+name: Forever Jekyll
 
 # Short bio or description (displayed in the header)
-description: The most useless website ever created.
+description: A simple, elegant and full featured Jekyll theme
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/image/avatar.png
@@ -17,7 +17,7 @@ avatar: /assets/image/avatar.png
 
 # Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://Tomoms.github.io
+url: https://forever-jekyll.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -38,8 +38,16 @@ navigation_links:
 
 # Footer icons
 footer_links:
+  - title: Feed
+    url: feed.xml
+    icon: fa fa-rss-square
+
+  - title: Twitter
+    url: https://twitter.com/jekyllrb
+    icon: fa fa-twitter-square
+
   - title: GitHub
-    url: https://github.com/Tomoms
+    url: https://github.com/forever-jekyll
     icon: fa fa-github-square
 
 # Enter your copyright text if you wish to override the default one.
